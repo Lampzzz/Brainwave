@@ -1,0 +1,7 @@
+Features
+
+- Timer 
+- Edit timer
+- Edit how many interval
+- Auto change interval
+- Sound when the timer is done
