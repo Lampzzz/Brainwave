@@ -31,7 +31,6 @@ export function Timer({
           },
         }}
       >
-        {/* <p className="text-5xl font-bold">00:25:00</p> */}
         <p className="text-6xl font-bold">{label}</p>
       </CircularProgressbarWithChildren>
     </div>
