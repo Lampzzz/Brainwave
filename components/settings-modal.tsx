@@ -1,12 +1,10 @@
-"use client";
-
 import { X } from "lucide-react";
 import { Button } from "./ui/button";
 import Modal from "./ui/modal";
-import NumberField from "./form/number-field";
+import { NumberField } from "./form/number-field";
 import useModalStore from "@/store/modal-store";
 import useTimerStore from "@/store/timer-store";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function SettingsModal() {
   const { closeModal } = useModalStore();

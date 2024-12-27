@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-type Mode = "work" | "shortBreak" | "longBreak";
+export type Mode = "work" | "shortBreak" | "longBreak";
 
 interface Times {
   work: number;

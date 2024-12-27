@@ -16,7 +16,7 @@ import useModalStore from "@/store/modal-store";
 import useTimerStore from "@/store/timer-store";
 import { getTimerColor } from "@/utils/get-time-color";
 import { ModeButton } from "@/components/mode-button";
-import AlarmSound from "@/components/alarm-sound";
+import { AlarmSound } from "@/components/alarm-sound";
 
 export default function Page() {
   const {
@@ -45,8 +45,6 @@ export default function Page() {
 
     return () => clearTimeout(timer);
   }, [isRunning, remainingTime]);
-
-  console.log(currentMode);
 
   return (
     <>

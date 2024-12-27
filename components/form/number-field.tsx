@@ -1,5 +1,3 @@
-import React from "react";
-
 interface NumberFieldProps {
   label?: string;
   value: number;
@@ -8,7 +6,7 @@ interface NumberFieldProps {
   onChangeTime: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-export default function NumberField({
+export function NumberField({
   label,
   value,
   isLabel = true,

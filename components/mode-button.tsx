@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
-import useTimerStore from "@/store/timer-store";
+import useTimerStore, { Mode } from "@/store/timer-store";
 
 interface ModeButtonProps {
-  mode: string;
+  mode: Mode;
   label: string;
   activeColor: string;
 }

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import useTimerStore from "@/store/timer-store";
 
-export default function AlarmSound() {
+export function AlarmSound() {
   const { remainingTime } = useTimerStore();
   const alarmSound = useRef<HTMLAudioElement>(null);
 
